@@ -9,7 +9,6 @@ def find_item_by_name_in_collection(name, collection)
   nil
 end
 
-require 'pry'
 def consolidate_cart(cart)
   index = 0
   new_cart = []
@@ -29,7 +28,6 @@ def consolidate_cart(cart)
       new_cart << grocery_item
     end
     index += 1
-    binding.pry
   end
   new_cart
 end
